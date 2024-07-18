@@ -22,7 +22,7 @@ public class HomePageTest {
 	public void setup() {
 		
 		pf = new PlaywrightFactory();
-	    page = pf.initBrowser("chromium");
+	    page = pf.initBrowser("chrome");
 	    
 	    homePage = new HomePage(page);
 		
